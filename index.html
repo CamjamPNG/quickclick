@@ -1,8 +1,8 @@
 <html class='scriptasync'>
 <head>  
-  <link rel="canonical" href="https://bazzerdv.github.io/quickclick/"> <!--To prevent some indexing errors-->
+  <link rel="canonical" href="https://camjampng.github.io/quickclick/"> <!--To prevent some indexing errors-->
   <meta charset="UTF-8">
-  <meta name="description" content="A simple quick clicker game by BazzerDv">
+  <meta name="description" content="A SUper Fun Simple CLicker Game">
   <meta name="keywords" content="Quick Click Game, incremental game, Quick Click, clicker game, simple clicker game, BazzerDv, quick click game">
   <meta name="author" content="BazzerDv">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
    <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-D483HZKVBW"></script>
   <script>
-    if (window.location.href == 'https://bazzerdv.github.io/quickclick/'){
+    if (window.location.href == 'https://camjampng.github.io/quickclick/'){
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -57,6 +57,8 @@
     <button id='clickbutton'; style='font-family:monospace' onclick='Clicks.addClick()'>Click Me!</button>
     <button title='+1 Click Per Click'; style='font-family:monospace' id='mouseR'; onclick='Clicks.addMouseUpgrade(10, 1)'; disabled>Upgrade Mouse Responsiveness (10C)</button>
     <button title='+15 Clicks Per Click'; style='font-family:monospace' id='mouseE'; onclick='Clicks.addMouseUpgrade(300, 15)'; disabled>Upgrade Mouse Ergonomy (300C)</button>
+    <button title='+150 Clicks Per Click'; style='font-family:monospace' id='mouseE'; onclick='Clicks.addMouseUpgrade(5000, 150)'; disabled>Upgrade MousePad (5000C)</button>
+    <button title='+1500 Clicks Per Click'; style='font-family:monospace' id='mouseE'; onclick='Clicks.addMouseUpgrade(100000, 1500)'; disabled>Upgrade Mouse Brand (100000C)</button>
   </p>
   <script>
     document.getElementById('clickbutton').addEventListener('keydown', function (e) {
